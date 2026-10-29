@@ -33,6 +33,8 @@ Every number in the paper is computed from the files in `results/` and `foundati
 with Python 3.11 or later and install the CPU requirements:
 
 ```bash
+git clone https://github.com/surajbi2/birs-radiograph-adaptation.git
+cd birs-radiograph-adaptation
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -138,6 +140,13 @@ redistributed. `foundation_arm/weights_manifest.json` records the exact commits 
 Python 3.11, PyTorch 2.5.1 (CUDA 12.1), timm 1.0.26, scikit-learn 1.8.0, pandas 3.0.2 and NumPy 2.4.3;
 `requirements.txt` lists what the CPU steps need and `requirements-full.txt` is the complete environment of the
 GPU runs.
+
+## Citation
+
+If you use this code or the result files, please cite the paper (full reference to be added on publication):
+
+    S. K. Ramagiri, P. M. Kamble. Budget-indexed readout shrinkage: harm-constrained local adaptation of radiograph
+    classifiers built on ImageNet and foundation encoders.
 
 ## Licence
 
