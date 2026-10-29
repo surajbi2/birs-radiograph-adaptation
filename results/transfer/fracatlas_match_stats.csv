@@ -1,0 +1,2 @@
+target,matched_mean,mismatched_mean,difference,p_matched_less,p_matched_greater,p_two_sided,observed_rank,n_sources,observed_difference,p_difference_permutation
+XR_HAND,0.49172746500272274,0.6035029118015464,-0.11177544679882362,2.813096319393711e-06,0.9999974024992108,5.626192638787422e-06,7,7,-0.11177544679882362,0.0

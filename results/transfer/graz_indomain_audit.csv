@@ -1,0 +1,6 @@
+analysis,auc_grouped,auc_ungrouped,n
+metadata_only::label_abnormal,0.8608352019261255,0.863658790202782,20327
+metadata_only::label_fracture,0.8608957963417615,0.8652488637768183,20327
+text_geometry::label_abnormal,0.588205080680035,,20327
+text_geometry::label_fracture,0.584484796906402,,20327
+metadata_only::initial_exam_only,0.652590365162753,,10861

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# outputs written when the scripts are run again
+code/paper_check/
+manuscript/output/
+
+# never commit data, weights or features
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.npy
+data/
+checkpoints/

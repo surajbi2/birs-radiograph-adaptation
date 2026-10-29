@@ -1,0 +1,44 @@
+# {"provenance": {"script_sha256": "52c675852ed6d890b6cfb98a85d1527251b1385a4b0ee027af15e0a70f15e505", "git_sha": "NO_GIT", "utc": "2026-08-06T18:29:56Z", "python": "3.13.5", "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39", "torch": "NA", "cuda": "NA", "timm": "NA", "numpy": "2.1.3", "pandas": "2.2.3", "mskdata_P_LO": "0.5", "mskdata_P_HI": "99.5", "script": "cohort_counts.py v1", "purpose": "cohort counts for the Methods section; no file is modified", "source": "XR_WRIST", "extra_sources": "['XR_HAND', 'XR_HUMERUS']", "index_rows": "64017"}}
+cohort_id,dataset,anatomy,split,stage,n_images,n_studies,n_patients,prevalence_image,prevalence_study,n_excluded,excluded_label_0,excluded_label_1,note
+mura_XR_ELBOW_train,mura,XR_ELBOW,train,raw,4931,1754,1711,0.4068140336645711,0.37628278221208666,0,0,0,
+mura_XR_ELBOW_valid,mura,XR_ELBOW,valid,raw,465,158,152,0.4946236559139785,0.4177215189873418,0,0,0,
+mura_XR_FINGER_train,mura,XR_FINGER,train,raw,5106,1935,1865,0.3854289071680376,0.3385012919896641,0,0,0,
+mura_XR_FINGER_valid,mura,XR_FINGER,valid,raw,461,175,166,0.5357917570498916,0.4742857142857143,0,0,0,
+mura_XR_FOREARM_train,mura,XR_FOREARM,train,raw,1825,877,865,0.36219178082191783,0.3272519954389966,0,0,0,
+mura_XR_FOREARM_valid,mura,XR_FOREARM,valid,raw,301,133,129,0.5016611295681063,0.48120300751879697,0,0,0,
+mura_XR_HAND_train,mura,XR_HAND,train,raw,5543,2018,1945,0.26772505863250945,0.2581764122893954,0,0,0,
+mura_XR_HAND_valid,mura,XR_HAND,valid,raw,460,167,159,0.4108695652173913,0.39520958083832336,0,0,0,
+mura_XR_HUMERUS_train,mura,XR_HUMERUS,train,raw,1272,592,587,0.47091194968553457,0.4577702702702703,0,0,0,
+mura_XR_HUMERUS_valid,mura,XR_HUMERUS,valid,raw,288,135,132,0.4861111111111111,0.4962962962962963,0,0,0,
+mura_XR_SHOULDER_train,mura,XR_SHOULDER,train,raw,8379,2821,2694,0.4974340613438358,0.5164835164835165,0,0,0,
+mura_XR_SHOULDER_valid,mura,XR_SHOULDER,valid,raw,563,194,173,0.4937833037300178,0.4896907216494845,0,0,0,
+mura_XR_WRIST_train,mura,XR_WRIST,train,raw,9752,3460,3267,0.4088392124692371,0.3832369942196532,0,0,0,
+mura_XR_WRIST_valid,mura,XR_WRIST,valid,raw,659,237,207,0.44764795144157815,0.4092827004219409,0,0,0,
+source_XR_WRIST,mura,XR_WRIST,train,raw,9752,3460,3267,0.4088392124692371,0.3832369942196532,0,0,0,pool a source model was trained on
+source_XR_HAND,mura,XR_HAND,train,raw,5543,2018,1945,0.26772505863250945,0.2581764122893954,0,0,0,pool a source model was trained on
+source_XR_HUMERUS,mura,XR_HUMERUS,train,raw,1272,592,587,0.47091194968553457,0.4577702702702703,0,0,0,pool a source model was trained on
+target_XR_ELBOW_train_preleak,mura,XR_ELBOW,train,raw,4931,1754,1711,0.4068140336645711,0.37628278221208666,0,0,0,before source-patient removal
+target_XR_ELBOW_train_postleak,mura,XR_ELBOW,train,leak_removed,4451,1583,1545,0.40979555156144687,0.37839545167403665,480,298,182,after removing patients shared with XR_WRIST/train; 9.73% of images
+target_XR_FINGER_train_preleak,mura,XR_FINGER,train,raw,5106,1935,1865,0.3854289071680376,0.3385012919896641,0,0,0,before source-patient removal
+target_XR_FINGER_train_postleak,mura,XR_FINGER,train,leak_removed,4651,1764,1707,0.39023865835304233,0.3429705215419501,455,302,153,after removing patients shared with XR_WRIST/train; 8.91% of images
+target_XR_FOREARM_train_preleak,mura,XR_FOREARM,train,raw,1825,877,865,0.36219178082191783,0.3272519954389966,0,0,0,before source-patient removal
+target_XR_FOREARM_train_postleak,mura,XR_FOREARM,train,leak_removed,1658,796,787,0.3691194209891435,0.3316582914572864,167,118,49,after removing patients shared with XR_WRIST/train; 9.15% of images
+target_XR_HAND_train_preleak,mura,XR_HAND,train,raw,5543,2018,1945,0.26772505863250945,0.2581764122893954,0,0,0,before source-patient removal
+target_XR_HAND_train_postleak,mura,XR_HAND,train,leak_removed,4975,1813,1749,0.27035175879396983,0.2608935466078323,568,429,139,after removing patients shared with XR_WRIST/train; 10.25% of images
+target_XR_HUMERUS_train_preleak,mura,XR_HUMERUS,train,raw,1272,592,587,0.47091194968553457,0.4577702702702703,0,0,0,before source-patient removal
+target_XR_HUMERUS_train_postleak,mura,XR_HUMERUS,train,leak_removed,1149,534,529,0.47171453437771976,0.4606741573033708,123,66,57,after removing patients shared with XR_WRIST/train; 9.67% of images
+target_XR_SHOULDER_train_preleak,mura,XR_SHOULDER,train,raw,8379,2821,2694,0.4974340613438358,0.5164835164835165,0,0,0,before source-patient removal
+target_XR_SHOULDER_train_postleak,mura,XR_SHOULDER,train,leak_removed,7550,2543,2445,0.49682119205298014,0.5151395988989382,829,412,417,after removing patients shared with XR_WRIST/train; 9.89% of images
+graz_train_full,graz,XR_WRIST,train,raw,14300,7524,4263,0.6913986013986014,0.7256778309409888,0,0,0,"full pool, initial + follow-up"
+graz_train_initial,graz,XR_WRIST,train,initial_only,7575,3998,3442,0.44673267326732674,0.49824912456228115,6725,222,6503,initial_exam == 1; the analysed cohort
+graz_train_followup,graz,XR_WRIST,train,followup_only,6725,3565,1414,0.9669888475836431,0.9789621318373072,0,0,0,initial_exam missing; excluded from analysis
+graz_valid_full,graz,XR_WRIST,valid,raw,3058,1605,914,0.6736429038587312,0.7133956386292835,0,0,0,"full pool, initial + follow-up"
+graz_valid_initial,graz,XR_WRIST,valid,initial_only,1640,862,736,0.42621951219512194,0.4814385150812065,1418,57,1361,initial_exam == 1; the analysed cohort
+graz_valid_followup,graz,XR_WRIST,valid,followup_only,1418,748,301,0.9598025387870239,0.9759358288770054,0,0,0,initial_exam missing; excluded from analysis
+graz_test_full,graz,XR_WRIST,test,raw,2969,1570,914,0.6732906702593466,0.7133757961783439,0,0,0,"full pool, initial + follow-up"
+graz_test_initial,graz,XR_WRIST,test,initial_only,1646,871,751,0.44289185905224787,0.49827784156142363,1323,53,1270,initial_exam == 1; the analysed cohort
+graz_test_followup,graz,XR_WRIST,test,followup_only,1323,703,283,0.9599395313681028,0.9786628733997155,0,0,0,initial_exam missing; excluded from analysis
+frac_XR_HAND_raw,fracatlas,XR_HAND,test,raw,1281,1281,1281,0.29586260733801717,0.29586260733801717,0,0,0,as indexed
+frac_XR_HAND_readable,fracatlas,XR_HAND,test,readable,1256,1256,1256,0.3017515923566879,0.3017515923566879,25,25,0,after excluding images that do not decode; LOAD_TRUNCATED_IMAGES is never set
+frac_XR_SHOULDER_raw,fracatlas,XR_SHOULDER,test,raw,101,101,101,0.09900990099009901,0.09900990099009901,0,0,0,as indexed
+frac_XR_SHOULDER_readable,fracatlas,XR_SHOULDER,test,readable,98,98,98,0.10204081632653061,0.10204081632653061,3,3,0,after excluding images that do not decode; LOAD_TRUNCATED_IMAGES is never set

@@ -1,0 +1,211 @@
+{
+  "models": {
+    "microsoft/rad-dino": {
+      "repo": "microsoft/rad-dino",
+      "commit": "110cbc18d5133582e320b43d53bf5c44e410c936",
+      "license": null,
+      "gated": false,
+      "total_bytes": 880195640,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1575
+        },
+        {
+          "path": ".gitignore",
+          "size": 158
+        },
+        {
+          "path": "LICENSE",
+          "size": 1072
+        },
+        {
+          "path": "README.md",
+          "size": 9258
+        },
+        {
+          "path": "augmentations.py",
+          "size": 4981
+        },
+        {
+          "path": "backbone_compatible.safetensors",
+          "size": 346338024,
+          "sha256": "1eac0464b2a00d368aa3eea1dc029964b10320fbabc59a8a4e768c43a23d26f4",
+          "hub_lfs_sha256": "1eac0464b2a00d368aa3eea1dc029964b10320fbabc59a8a4e768c43a23d26f4",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "config.json",
+          "size": 879
+        },
+        {
+          "path": "dino_head.safetensors",
+          "size": 92554920,
+          "sha256": "5b3599663464ed1054f7777f547db02f518581acc5becdd3eddffc8c507f3778",
+          "hub_lfs_sha256": "5b3599663464ed1054f7777f547db02f518581acc5becdd3eddffc8c507f3778",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "model.safetensors",
+          "size": 346345912,
+          "sha256": "dbfb9f54459c38773505de64a6ab7807bdcb392610fe1e697166342e43fb91ae",
+          "hub_lfs_sha256": "dbfb9f54459c38773505de64a6ab7807bdcb392610fe1e697166342e43fb91ae",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 756
+        },
+        {
+          "path": "pyproject.toml",
+          "size": 791
+        },
+        {
+          "path": "src/rad_dino/__init__.py",
+          "size": 2696
+        },
+        {
+          "path": "src/rad_dino/utils.py",
+          "size": 783
+        },
+        {
+          "path": "ssl_default_config.yaml",
+          "size": 3192
+        },
+        {
+          "path": "training_images.csv",
+          "size": 94929974
+        },
+        {
+          "path": "vitb14_cxr.yaml",
+          "size": 669
+        }
+      ],
+      "recorded_utc": "2026-10-27T08:31:06+00:00"
+    },
+    "skhoha/SKELEX": {
+      "repo": "skhoha/SKELEX",
+      "commit": "368cae7b05cf649e6dbcddae9a7f00ea4b14bb8e",
+      "license": "cc-by-nc-nd-4.0",
+      "gated": false,
+      "total_bytes": 1318232700,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "path": "README.md",
+          "size": 33
+        },
+        {
+          "path": "config.json",
+          "size": 699
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1318230232,
+          "sha256": "81cd6e9cf8da0c56d149a2e1a3668fdc6def2742b055f2696f97507332d69ef8",
+          "hub_lfs_sha256": "81cd6e9cf8da0c56d149a2e1a3668fdc6def2742b055f2696f97507332d69ef8",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 217
+        }
+      ],
+      "recorded_utc": "2026-10-27T08:31:07+00:00"
+    },
+    "google/medsiglip-448": {
+      "repo": "google/medsiglip-448",
+      "commit": "9cea28a1a1195f665105faa6e8544c112fd960a4",
+      "license": "other",
+      "gated": "auto",
+      "total_bytes": 3516533109,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "path": "README.md",
+          "size": 21416
+        },
+        {
+          "path": "config.json",
+          "size": 879
+        },
+        {
+          "path": "model.safetensors",
+          "size": 3513309984,
+          "sha256": "3e1722b8100cca8b87cfe16e42140737aa6d312854e9e6bc24dff6db70e21d72",
+          "hub_lfs_sha256": "3e1722b8100cca8b87cfe16e42140737aa6d312854e9e6bc24dff6db70e21d72",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 360
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 455
+        },
+        {
+          "path": "spiece.model",
+          "size": 798330,
+          "sha256": "1e5036bed065526c3c212dfbe288752391797c4bb1a284aa18c9a0b23fcaf8ec",
+          "hub_lfs_sha256": "1e5036bed065526c3c212dfbe288752391797c4bb1a284aa18c9a0b23fcaf8ec",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 2399357
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 809
+        }
+      ],
+      "recorded_utc": "2026-10-27T12:21:09+00:00",
+      "license_note": "HAI-DEF terms (gated)"
+    },
+    "facebook/dinov3-vitb16-pretrain-lvd1689m": {
+      "repo": "facebook/dinov3-vitb16-pretrain-lvd1689m",
+      "commit": "5931719e67bbdb9737e363e781fb0c67687896bc",
+      "license": "other",
+      "gated": "manual",
+      "total_bytes": 342687063,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519
+        },
+        {
+          "path": "LICENSE.md",
+          "size": 7503
+        },
+        {
+          "path": "README.md",
+          "size": 14520
+        },
+        {
+          "path": "config.json",
+          "size": 744
+        },
+        {
+          "path": "model.safetensors",
+          "size": 342662192,
+          "sha256": "9a21ac3df0c63839d62612dda6f454d816c25611cc7a52966ed5a5a94921dc8b",
+          "hub_lfs_sha256": "9a21ac3df0c63839d62612dda6f454d816c25611cc7a52966ed5a5a94921dc8b",
+          "sha256_matches_hub": true
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 585
+        }
+      ],
+      "recorded_utc": "2026-10-28T06:26:21+00:00",
+      "license_note": "dinov3-license (gated, manual approval)"
+    }
+  }
+}

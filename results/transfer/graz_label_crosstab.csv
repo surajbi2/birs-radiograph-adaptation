@@ -1,0 +1,3 @@
+# {"provenance": {"script_sha256": "52c675852ed6d890b6cfb98a85d1527251b1385a4b0ee027af15e0a70f15e505", "git_sha": "NO_GIT", "utc": "2026-09-24T11:26:21Z", "python": "3.11.15", "platform": "Linux-6.8.0-137-generic-x86_64-with-glibc2.39", "torch": "2.5.1+cu121", "cuda": "12.1", "timm": "1.0.26", "numpy": "2.4.3", "pandas": "3.0.2", "mskdata_P_LO": "0.5", "mskdata_P_HI": "99.5", "script": "make_graz_label_crosstab.py v1"}}
+dataset,n_images,abnormal_and_fracture,abnormal_not_fracture,fracture_not_abnormal,neither,n_disagree,frac_disagree,frac_pool_studies,frac_pool_images
+graz,20327,13550,396,0,6381,396,0.01948147783735918,688,688
